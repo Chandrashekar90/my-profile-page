@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Profile Page of Chandrashekar">
+    <title>Chandrashekar's Profile</title>
+    <link rel="icon" href="icon.ico.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>This is Chandrashekar, a <span class="about-me"></span></h1>
+        <p>Welcome to My World !</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm <i>Chandrashekar</i>, and here's a little info about me.</p>
+        <img src="my pic.jpg" alt="Chandrashekar pic">
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>Let's connect!</p>
+        <a href="mailto:gandlachandrashekar8@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/gandla-chandrashekar-b496862a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>HTML, CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>MY SQL</li>
+        </ul>
+
+        <div class="horizontal-scroll">
+            <div class="icon-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Icon" class="icon html-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Icon" class="icon css-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Icon" class="icon js-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" class="icon python-icon"> 
+                <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL Icon" class="icon mysql-icon">
+            </div>
+        </div>
+    </section>
+
+    <section id="programming-languages">
+        <h2>Programming Languages</h2>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar" data-progress="50"></div>
+        </div>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar" data-progress="90"></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar" data-progress="80"></div>
+        </div>        
+    </section>
+
+    <section>
+        <h2>Portfolio</h2>
+        <p>Take a look at some of my works.</p>
+        <p><a href="project_css.html">Project 1</a> | <a href="https://github.com/Chandrashekar90/Budget-Tracking/blob/main/Budget%20Tracker%20App.py"></a></p>
+        <p><a href="project_css.html">Project 2</a> | <a href="https://github.com/Chandrashekar90/JS-Mini-Project.git"></a></p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chandrashekar. Built by Chandrashekar.</p>
+    </footer>
+
+    <div id="dark-mode-toggle" class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+</body>
+</html>
